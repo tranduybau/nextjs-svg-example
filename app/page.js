@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 import SVGTag from "@/components/SVGTag";
 
-import FilledRocket from '@/public/images/filled-rocket.svg'
 import OutlineRocket from '@/public/images/outline-rocket.svg'
 import Discord from '@/public/images/discord.svg'
 import SMS from '@/public/images/sms.svg'
 import MaskSVG from "@/components/MaskSVG";
+import {iconMap} from "@/public/images";
 
 export default function Home() {
   return (
@@ -29,6 +29,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex place-items-center">
+        Best:
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/images/discord.svg"
@@ -38,12 +39,14 @@ export default function Home() {
           priority
         />
 
+        Worst:
         <MaskSVG className="w-[100px] h-[100px] text-sky-500 hover:text-emerald-400" />
         <MaskSVG className="w-[100px] h-[100px] text-sky-500 hover:text-emerald-400" url="filled-rocket" />
         <MaskSVG className="w-[100px] h-[100px] text-sky-500 hover:text-emerald-400" />
       </div>
 
       <div className="relative flex place-items-center">
+        Best:
         <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
             src="/images/discord.svg"
@@ -54,9 +57,13 @@ export default function Home() {
         />
 
         {/* Best performance */}
-        <SVGTag src="/images/filled-rocket.svg" className="hover:text-red-600" width={100} height={100} />
+        Good:
+        <SVGTag src={iconMap.filled_rocket} className="hover:text-red-600" width={100} height={100} />
+        <SVGTag src={iconMap.sms} className="hover:text-red-600" width={100} height={100} />
+        <SVGTag src={iconMap.outline_rocket} className="hover:text-red-600" width={100} height={100} />
 
         {/* Worse performance, because we import SVG as object of JS */}
+        Worse:
         <SVGTag src={OutlineRocket} className="hover:text-red-600" width={100} height={100} />
         <SVGTag src={Discord} className="hover:text-red-600" width={100} height={100} />
         <SVGTag src={SMS} className="hover:text-red-600" width={100} height={100} />
