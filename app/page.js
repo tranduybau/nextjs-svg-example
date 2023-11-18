@@ -2,9 +2,6 @@ import Image from 'next/image'
 
 import SVGTag from "@/components/SVGTag";
 
-import OutlineRocket from '@/public/images/outline-rocket.svg'
-import Discord from '@/public/images/discord.svg'
-import SMS from '@/public/images/sms.svg'
 import MaskSVG from "@/components/MaskSVG";
 import {iconMap} from "@/public/images";
 
@@ -61,12 +58,6 @@ export default function Home() {
         <SVGTag src={iconMap.filled_rocket} className="hover:text-red-600" width={100} height={100} />
         <SVGTag src={iconMap.sms} className="hover:text-red-600" width={100} height={100} />
         <SVGTag src={iconMap.outline_rocket} className="hover:text-red-600" width={100} height={100} />
-
-        {/* Worse performance, because we import SVG as object of JS */}
-        Worse:
-        <SVGTag src={OutlineRocket} className="hover:text-red-600" width={100} height={100} />
-        <SVGTag src={Discord} className="hover:text-red-600" width={100} height={100} />
-        <SVGTag src={SMS} className="hover:text-red-600" width={100} height={100} />
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">

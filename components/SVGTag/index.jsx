@@ -19,11 +19,10 @@ function SVGTag(props) {
         className,
         ...other
     } = props;
-    const finalSrc = src?.src || src;
 
     return (
         <svg width={20} height={20} className={className} {...other} >
-            <use href={`${finalSrc}#id`} width={20} height={20} {...other} />
+            <use href={src} width={20} height={20} {...other} />
         </svg>
     )
 }
