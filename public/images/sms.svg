@@ -1,0 +1,22 @@
+<svg id="id" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512"
+     height="512" x="0" y="0" viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512 512"
+     xml:space="preserve" class=""> <g> <path
+        d="M111.001 96.119V30c0-11 9-20 20-20h260c11 0 20 9.001 20 20v452.002c0 10.999-9.001 20-20 20h-260c-10.998 0-20-9-20-20V281.119M231.001 457.002h60"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.6131;"
+        fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="currentColor" stroke-width="20" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="2.6131" data-original="currentColor" class=""> </path>
+    <path
+            d="M181.001 15v10c0 16.569 13.431 30 30 30h100.001c16.569 0 30-13.431 30-30V15M241.754 276.119h-65.001v50l-49.999-50H36.001v-175h245v65"
+            style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.6131;"
+            fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="currentColor" stroke-width="20"
+            stroke-linecap="round"
+            stroke-linejoin="round" stroke-miterlimit="2.6131" data-original="currentColor" class=""> </path>
+    <path
+            d="M221.753 146.119h264.248v205.928H373.878l-58.837 58.836v-58.836h-93.288z"
+            style="fill-rule:evenodd;clip-rule:evenodd;" fill="currentColor" data-original="#e2c4ff"> </path>
+    <path
+            d="m300.07 212.773-5.317-2.202c-9.986-4.136-21.539.649-25.674 10.635-4.136 9.985.649 21.538 10.634 25.674l5.318 2.202 5.317 2.202c9.985 4.136 14.77 15.689 10.634 25.674-4.135 9.987-15.689 14.771-25.674 10.635l-5.317-2.202M353.877 209.083h0c11 0 20 9 20 19.999v40.001c0 11-9 20-20 20h0c-11 0-19.999-9-19.999-20v-40.001c-.001-10.999 8.999-19.999 19.999-19.999zM437.765 212.773l-5.317-2.202c-9.986-4.136-21.539.649-25.674 10.635-4.136 9.985.649 21.538 10.634 25.674l5.318 2.202 5.318 2.202c9.984 4.136 14.77 15.689 10.634 25.674-4.135 9.987-15.689 14.771-25.674 10.635l-5.317-2.202"
+            style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.6131;"
+            fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="currentColor" stroke-width="20"
+            stroke-linecap="round"
+            stroke-linejoin="round" stroke-miterlimit="2.6131" data-original="currentColor" class=""> </path> </g> </svg>
